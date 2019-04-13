@@ -66,6 +66,10 @@ class ViewController: UIViewController {
         show()
     }
     func show(){
+//        for i in 0..<3{
+//            btns[i].backgroundColor = UIColor(named: "bule")
+//        }
+//        btns[number].backgroundColor = UIColor(named: "red")
         label.text = names[number]
         imageView.image = UIImage(named: imagenames[number])
     }

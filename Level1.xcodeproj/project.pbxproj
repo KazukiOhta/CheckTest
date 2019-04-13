@@ -14,6 +14,9 @@
 		CF19D7032261B9BE0079BEF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF19D7012261B9BE0079BEF9 /* LaunchScreen.storyboard */; };
 		CF19D70E2261B9BE0079BEF9 /* Level1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF19D70D2261B9BE0079BEF9 /* Level1Tests.swift */; };
 		CF19D7192261B9BE0079BEF9 /* Level1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF19D7182261B9BE0079BEF9 /* Level1UITests.swift */; };
+		CF19D72A2261BC0D0079BEF9 /* carrot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF19D7272261BC0D0079BEF9 /* carrot.jpg */; };
+		CF19D72B2261BC0D0079BEF9 /* apple.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CF19D7282261BC0D0079BEF9 /* apple.jpeg */; };
+		CF19D72C2261BC0D0079BEF9 /* banana.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CF19D7292261BC0D0079BEF9 /* banana.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		CF19D7142261B9BE0079BEF9 /* Level1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Level1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF19D7182261B9BE0079BEF9 /* Level1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level1UITests.swift; sourceTree = "<group>"; };
 		CF19D71A2261B9BE0079BEF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF19D7272261BC0D0079BEF9 /* carrot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = carrot.jpg; sourceTree = "<group>"; };
+		CF19D7282261BC0D0079BEF9 /* apple.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apple.jpeg; sourceTree = "<group>"; };
+		CF19D7292261BC0D0079BEF9 /* banana.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banana.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,7 @@
 				CF19D70C2261B9BE0079BEF9 /* Level1Tests */,
 				CF19D7172261B9BE0079BEF9 /* Level1UITests */,
 				CF19D6F62261B9BD0079BEF9 /* Products */,
+				CF19D7262261BC0D0079BEF9 /* images */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +130,17 @@
 				CF19D71A2261B9BE0079BEF9 /* Info.plist */,
 			);
 			path = Level1UITests;
+			sourceTree = "<group>";
+		};
+		CF19D7262261BC0D0079BEF9 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				CF19D7272261BC0D0079BEF9 /* carrot.jpg */,
+				CF19D7282261BC0D0079BEF9 /* apple.jpeg */,
+				CF19D7292261BC0D0079BEF9 /* banana.jpeg */,
+			);
+			name = images;
+			path = Level1.xcodeproj/images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,8 +247,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF19D72A2261BC0D0079BEF9 /* carrot.jpg in Resources */,
 				CF19D7032261B9BE0079BEF9 /* LaunchScreen.storyboard in Resources */,
+				CF19D72C2261BC0D0079BEF9 /* banana.jpeg in Resources */,
 				CF19D7002261B9BE0079BEF9 /* Assets.xcassets in Resources */,
+				CF19D72B2261BC0D0079BEF9 /* apple.jpeg in Resources */,
 				CF19D6FE2261B9BD0079BEF9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

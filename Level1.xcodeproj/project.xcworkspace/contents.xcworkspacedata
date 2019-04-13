@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
+   <Group
+      location = "group:images"
+      name = "images">
+      <FileRef
+         location = "group:carrot.jpg">
+      </FileRef>
+      <FileRef
+         location = "group:apple.jpeg">
+      </FileRef>
+      <FileRef
+         location = "group:banana.jpeg">
+      </FileRef>
+   </Group>
    <FileRef
       location = "self:Level1.xcodeproj">
    </FileRef>
